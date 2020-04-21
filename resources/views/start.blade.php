@@ -23,6 +23,9 @@
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="tab" href="#chartrandom">chartrandom-component</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#socket">socket-component</a>
+					</li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -41,6 +44,9 @@
 					</div>
 					<div id="chartrandom" class="container tab-pane fade">
 						<chartrandom-component></chartrandom-component>
+					</div>
+					<div id="socket" class="container tab-pane fade">
+						<socket-component></socket-component>
 					</div>
 				</div>
 			</div>
