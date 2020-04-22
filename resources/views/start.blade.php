@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-10">
-				<h2>Vuejs / Laravel</h2>
+				<h2>Vue / Laravel</h2>
 				<br>
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
@@ -25,6 +25,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="tab" href="#socket">socket-component</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#socketChat">socket-chat-component</a>
 					</li>
 				</ul>
 
@@ -47,6 +50,9 @@
 					</div>
 					<div id="socket" class="container tab-pane fade">
 						<socket-component></socket-component>
+					</div>
+					<div id="socketChat" class="container tab-pane fade">
+						<socket-chat-component></socket-chat-component>
 					</div>
 				</div>
 			</div>

@@ -2,7 +2,6 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <span class="badge badge-primary" v-if="is_refresh">Обновление ...</span>
                 <table class="table">
                     <thead>
                         <tr>
@@ -18,6 +17,7 @@
                     </tbody>
                 </table>
 				<button class="btn btn-primary" @click="update" v-if="!is_refresh">Обновить - {{id}}</button>
+                <span class="badge badge-primary" v-if="is_refresh">Обновление ...</span>
             </div>
         </div>
     </div>

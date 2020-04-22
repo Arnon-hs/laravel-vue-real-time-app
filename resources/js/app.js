@@ -26,6 +26,7 @@ Vue.component('chartline-component', require('./components/ChartLineComponent.vu
 Vue.component('chartrandom-component', require('./components/ChartrandomComponent.vue').default);
 Vue.component('chartpie-component', require('./components/ChartPieComponent.vue').default);
 Vue.component('socket-component', require('./components/SocketComponent.vue').default);
+Vue.component('socket-chat-component', require('./components/SocketChatComponent.vue').default);
 Vue.component('line-chart', require('./components/LineChart.js').default);
 Vue.component('pie-chart', require('./components/PieChart.js').default);
 /**
